@@ -95,10 +95,10 @@ func calculateNumbers(number1 : Int, number2 : Int) -> Int {
 }
 
 let result1 = calculateNumber()
-let result2 = calculateNumbers(number1: number1, number2: number2)
+let result2 = calculateNumbers(number1: number1, number2: number2)ß
 
 
-var calculatedNumber(number1 : Int, number2 : Int) : Int {
+var calculatedNumber: Int {
     return number1 + number2
 }
 
