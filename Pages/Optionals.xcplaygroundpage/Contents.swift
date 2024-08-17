@@ -3,10 +3,10 @@ import Foundation
 var myBool : Bool = false
 
 var myOtherBool : Bool? = nil
-
-print(myOtherBool)
-myOtherBool = true
-print(myOtherBool)
+//
+//print(myOtherBool)
+//myOtherBool = true
+//print(myOtherBool)
 
 // nil coalescing operator
 
@@ -181,7 +181,7 @@ func getUserData() {
     let username : String? = getUsername()
     
     // i will get the count if the username is not nil
-    let count : Int? = username?.count
+    //let count : Int? = username?.count
     
     let title: String = getTitle()
     
@@ -196,7 +196,7 @@ func getUserData() {
     // explicitly unwrap optional
     // I will get the count because I know 100% username is not nil
     // This will crash your app if username is nil!
-    let count3 : Int = username!.count
+    //let count3 : Int = username!.count
     
 
 }

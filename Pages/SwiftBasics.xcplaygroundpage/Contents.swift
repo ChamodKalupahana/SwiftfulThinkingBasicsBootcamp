@@ -18,3 +18,4 @@ let this_is_what_snake_case_looks_like = "Hello world"
 
 // Pascal case - WRONG!
 let ThisIsWhatPascalCaseLooksLike = "Hello world"
+
