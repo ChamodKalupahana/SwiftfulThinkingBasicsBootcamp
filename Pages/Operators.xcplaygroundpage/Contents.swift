@@ -30,3 +30,10 @@ if likeCount > 3 && commentCount > 0 {
 if likeCount > 3 || commentCount > 0 {
     print("Post has more than 3 likes or comments")
 }
+
+var userIsPremium : Bool = true
+var userIsnew : Bool = true
+
+if likeCount > 100 && (commentCount > 0 || viewCount > 50) {
+    print("help")
+}
