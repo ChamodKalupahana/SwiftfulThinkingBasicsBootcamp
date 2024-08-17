@@ -9,5 +9,6 @@
         <page name='Optionals'/>
         <page name='Tuples'/>
         <page name='ObjectOrientedProgramming'/>
+        <page name='Structs'/>
     </pages>
 </playground>
